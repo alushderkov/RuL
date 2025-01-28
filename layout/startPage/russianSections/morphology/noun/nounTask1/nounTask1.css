@@ -1,0 +1,166 @@
+@import url("../../../../../fonts/fonts.css");
+
+
+body {
+    background-color: darkslateblue;
+    font-family: 'Roca';    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: calc(95vh - 110px);    
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 15px;
+    border-color: rgba(222, 188, 118, 0.1);
+    border-style: solid;
+    border-width: 1px;
+}
+
+#legend {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #d6b674;
+    font-weight: 800;
+    font-size: 2.118rem;
+    border-radius: 15px;
+    padding-left: 22.5px;
+    padding-right: 24.5px;
+    padding-bottom: 8px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    border-color: rgba(222, 188, 118, 0.1);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.Dots {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 12px;
+    position: absolute;
+    right: 17px;
+}
+
+.Dot {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-color: rgba(222, 188, 118, 0.1);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.field {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 90%;
+    width: 30%;
+    border-radius: 25px;
+    border-color: rgba(222, 188, 118, 0.4);
+    border-style: solid;
+    border-width: 1px;
+}
+
+#question {
+    margin-left: 2.5%;
+    margin-right: 0;
+}
+
+#answer {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#rule {
+    margin-left: 0;
+    margin-right: 2.5%;
+}
+
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.field__name {
+    color: #d6b674;
+    font-size: 2rem;
+    margin-top: 3.8%;
+    font-weight: bold;
+}
+
+.field__block {
+    background-color: #d6b5740a;
+    width: 80%;
+    height: 70%;
+    margin-top: -20px;
+    border-radius: 15px;  
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    color: #d6b674;
+    text-align: left;
+}
+
+.input {
+    background-color: #d6b574cc;
+    width: 100%;
+    height: 65%;
+    border-radius: 15px;
+    padding-top: 3%;
+    text-align: left;
+    padding-left: 7%;
+    color: black;
+}
+
+.ToF {
+    margin-top: -4.75px;
+    width: 100%;
+    text-align: center;
+}
+
+.sendButton {
+    background-color: #d6b574cc;
+    width: 50%;
+    height: 10%;
+    border-radius: 8px;
+    text-align: center;
+    /*color: rgb(68, 52, 170);*/
+    color: black;
+    margin-right: 1.5%;
+}
+
+.sendButton__text {
+    padding-right: 1.5%;
+    margin-top: 1.5%;
+}
+
+.field__block-text {
+    width: 87.5%;
+    margin-top: 5%;
+}
+
+#editableInput:focus .placeholder,
+#editableInput.typing .placeholder {
+    visibility: hidden; /* Скрываем текст, когда ввод активен */
+    margin-left: 6%;
+    margin-top: 2%;
+}

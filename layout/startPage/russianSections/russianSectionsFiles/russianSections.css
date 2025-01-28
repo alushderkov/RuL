@@ -1,0 +1,322 @@
+@import url("../../../fonts/fonts.css");
+
+#firstpage {
+    height: 100vh;
+}
+
+body {
+    background-color: #1F527B;
+    font-family: 'Roca';    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    color: rgba(255, 255, 255, 0.85);
+    justify-content: space-between;
+    width: 750px;
+    margin-left: 200px;
+    float: right;
+    margin-top: 29px;
+    margin-right: 150px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#logo1 img {
+    width: 120px;
+    margin-left: 15px;
+    margin-top: 10px;
+    float: left
+}
+
+.body1 {
+    clear: both;
+    width: 100%;
+    position: relative;
+    top: 12px;
+}
+
+.wall-background {
+    background-color: rgba(0, 151, 178, 0.3);
+    height: 212.5px;
+}
+
+.wall {
+    display: flex;
+    justify-content:space-around;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 230px;
+}    
+
+.tables {
+    width: 100%;
+    display: flex;
+}
+
+.table {
+    display: flex;
+    height: 100%;
+    align-items: end;
+}
+
+.black {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 90%;
+    align-items: center;
+}
+
+.black1 {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 80%;
+    align-items: center;
+}
+
+.black2 {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 80%;
+}
+
+.computer {
+    display: flex;
+    justify-content: center;
+    height: 192.5px;
+    aspect-ratio: 1/1;
+    background-color: rgba(216, 174, 94, 0.6);
+    border-width: 10px;
+    border-color: rgba(0, 0, 0, 0.8);
+    border-style: solid;
+    position: relative;
+}
+
+#secondComputer {
+    background-color: rgba(216, 174, 94);
+}
+
+.keyboard {
+    position: absolute;
+    background-color: #9c9fa7;
+    height: 13.9px;
+    width: calc(212.5px * 0.6);
+    margin-left: calc(100% / 6 - 212.5px * 0.6 / 2);
+    bottom: calc(56.25% - 13.9px);
+}
+
+#circle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: #1f527b;
+    border-radius: 50%;
+    position: absolute;
+    top: 77.5px;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 22.5px solid transparent;
+    border-right: 22.5px solid transparent;
+    border-bottom: 38.97px solid #0097b2;
+    transform: rotate(180deg);
+    position: relative;
+    top: 4px;
+}
+
+#Htopics {
+    font-size: 2.875rem;
+    font-weight: bold;
+    color: #0097b2;
+    position: absolute;
+    top: 5px;
+}
+
+#clickhere {
+    position: absolute;
+    font-size: 1.2375rem;
+    font-weight: 400;
+    bottom: 2px;
+}
+
+
+
+#secondPage {
+    width: 100%;
+    height: 102vh;
+    background-color:#1F527B;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.header2 {
+    display: flex;
+    width: 100%;
+}
+
+#logo2 img {
+    width: 120px;
+    margin-top: 22px;
+    margin-left: 15px;
+
+}
+
+#legend {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #d6b674;
+    font-weight: 800;
+    font-size: 2.118rem;
+    border-radius: 15px;
+    padding-left: 22.5px;
+    padding-right: 22.5px;
+    padding-bottom: 7px;
+    margin-top: 35px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%); 
+}
+
+.Dots {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 28px;
+    position: absolute;
+    right: 15px;
+}
+
+.Dot {
+    width: 20px;
+    height: 20px;
+    background-color: #b5a06d;
+    border-radius: 50%;
+}
+
+.body2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 94%;
+    height: 490px;
+    position: absolute;
+    left: 50%;
+    top: calc(101% + 95px);
+    transform: translate(-50%);
+    border-radius: 25px;
+}
+
+.Topic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    background-color: rgba(222, 188, 118, 0.8);
+    height: 40%;
+    width: 21%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+}
+
+.TV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(222, 188, 118, 0.8);
+    border-radius: 25px;
+    width: 100%;
+    height: 70%;
+    color: #1f527b;
+    font-size: 1.664rem;
+    font-weight: 800;
+}
+
+.playButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: #1f527b;
+    border-radius: 50%;
+    margin-right: 5.5px;
+    margin-top: 6px;
+}
+
+.play {
+    width: 0;
+    height: 0;
+    border-left: 10.8px solid transparent;
+    border-right: 10.8px solid transparent;
+    border-bottom: 18.7px solid rgba(255, 255, 255, 0.25);
+    transform: rotate(90deg);    
+    position: relative;
+    left: 2px;
+}
+
+.readyPlay {
+    width: 0;
+    height: 0;
+    border-left: 10.8px solid transparent;
+    border-right: 10.8px solid transparent;
+    border-bottom: 18.7px solid rgba(255, 255, 255, 0.7);
+    transform: rotate(90deg);    
+    position: relative;
+    left: 2px;
+}
+
+#Morf {
+    margin-bottom: 20px;
+    margin-right: 2px;
+}
+
+#Phon {
+    margin-bottom: 20px;
+    margin-right: 1px;
+}
+
+#Mor {
+    margin-bottom: 20px;
+    margin-left: 1.5px;
+}
+
+#Lex {
+    font-size: 1.5rem;
+    margin-bottom: 17px;
+    margin-right: 2px;
+}
+
+#wordForm {
+    text-align: center;
+    margin-bottom: 10px; 
+    margin-right: 2px;
+}    
+
+#Orf {
+    margin-bottom: 20px;
+    margin-right: 2px;
+}
+
+#Synt {
+    margin-bottom: 19.75px;
+    margin-right: 3px;
+}
+
+#Pun {
+    margin-bottom: 20px;
+    margin-right: 1.5px;
+}

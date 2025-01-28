@@ -1,0 +1,77 @@
+@import url("../../fonts/fonts.css");
+
+body {
+    background-color: #1F527B;
+    overflow: hidden;
+    font-family: 'Roca';    
+    margin: 0;
+    padding: 0;
+}
+
+#generalBox {
+    position: relative;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 400;
+    margin-top: 90px;
+    line-height: 1.2;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 200;
+    position: absolute;
+    top: 233px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.85); 
+    font-weight: 100;   
+    position: absolute;
+    top: 290px;
+    width: 250px;
+}
+
+#picture1 img {
+    display: block;
+    height: 120vh;
+    object-fit: cover;
+    float: right;
+    opacity: 20%;
+}
+
+#logo img {
+    width: 120px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.button-container {
+    display: flex;
+    width: 400px;
+    top: 530px;
+    position: absolute;
+    
+}
+
+.button-container__left {
+    flex: 1;
+    background-color: rgba(216, 174, 94, 0.9);
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding-bottom: 6px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.button-container__right {
+    flex: 1;
+    color: rgba(255, 255, 255, 0.85); 
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding-bottom: 6px;
+    font-weight: bold;
+    font-size: 23px;
+}
